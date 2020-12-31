@@ -56,11 +56,20 @@ let score = {
   majster: 0,
 }
 
-function next(answer) {
-  counter += 1
-  console.log(answer)
-  console.log(counter)
+function again() {
+  $(".endBtns").hide();
   $(".inner").hide();
+  startGame()
+}
+
+function endCredits() {
+  $(".inner").hide();
+  $(".end").fadeIn(3000);
+}
+
+function next(answer) {
+  $(".inner").hide();
+  counter += 1
   let odp = $(answer).data('type');
   score[odp] += 1;
   $(".answers > li").remove();
@@ -73,7 +82,7 @@ function next(answer) {
       return score[a] > score[b] ? a : b
     });
     fillQuestion(results[maxKey])
-    console.log('best: ', maxKey)
+    $(".endBtns").show();
   }
   $(".inner").fadeIn(2000)
 }
@@ -98,7 +107,7 @@ function fillAnswers(content) {
   let a = $(".answers")
 
   content.answers.forEach(element => {
-    a.append(`<li data-type="${element.type}" onclick="next(this)"><a href="#">${element.text}</a></li>`)
+    a.append(`<li><a href="#" data-type="${element.type}" onclick="next(this)">${element.text}</a></li>`)
   })
 }
 

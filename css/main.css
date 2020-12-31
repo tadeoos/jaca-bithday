@@ -326,3 +326,20 @@ a:visited {
 a:hover {
   color: blue;
 }
+
+.endBtns {
+  text-align: center;
+}
+
+.end {
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.end > ul {
+  list-style: none;
+  padding: 0;
+}
