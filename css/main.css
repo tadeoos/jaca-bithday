@@ -350,7 +350,7 @@ button:hover {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
 
   .scroll-bg {
     display: none;
@@ -360,4 +360,15 @@ button:hover {
     display: block;
   }
 
+}
+
+.inner-result {
+  max-width: 800px;
+  height: 400px;
+  /*margin-bottom: 100px;*/
+  /*max-height: 700px;*/
+  /*overflow: auto;*/
+  /*width: 1000px;*/
+  /*height: 400px;*/
+  overflow: auto;
 }
