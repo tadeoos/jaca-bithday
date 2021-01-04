@@ -343,3 +343,21 @@ button:hover {
   list-style: none;
   padding: 0;
 }
+
+#content-mobile {
+  color: white;
+  background-color: black;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .scroll-bg {
+    display: none;
+  }
+
+  #content-mobile {
+    display: block;
+  }
+
+}
