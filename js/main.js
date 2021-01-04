@@ -1,6 +1,91 @@
 const story = [
   {
     type: "question",
+    question: "Jesteś 6-letnim chłopcem. Zbliża się Gwiazdka i piszesz list do Św. Mikołaja. Oto lista prezentów, o które prosisz:",
+    answers: [
+      {text: "gra planszowa, klocki lego Star Wars, statek Sokół Millennium, pluszak, film \"Dzielny mały toster\", pościel, kamień ", type: "jaca"},
+      {
+        text: "Nie wierzysz w Św. Mikołaja, prosisz rodziców aby kupili ci pod choinkę coś użytecznego np. tornister do szkoły albo kalkulator.",
+        type: "korpo"
+      },
+      {
+        text: "piłka do nogi, deskorolka, firmowy dres adidasa, stoper, film \"Kosmiczny mecz\"",
+        type: "quicksilver"
+      },
+      {
+        text: "samochód na baterie np koparkę, zestaw \" Mały konstruktor\", fajne adidasy, dużo napojów gazowanych, słodycze",
+        type: "majster"
+      },
+    ]
+  },
+  {
+    type: "question",
+    question: "Jesteś w pierwszej klasie szkoły podstawowej. Urządzasz właśnie swoje urodziny i czekasz na kolejnych gości – kolegów z klasy. Słyszysz dzwonek, otwierasz drzwi –  Niko wręcza ci prezent, który z niecierpliwością otwierasz – chwila konsternacji i:",
+    answers: [
+      {
+        text: "Mówisz, że zaraz wrócisz i biegniesz do swojego pokoju aby szybko ukryć identycznego pluszaka - nie chcesz aby Niko spostrzegł, iż podarował ci coś co już masz, bo pewnie byłoby mu głupio i przykro.",
+        type: "jaca"
+      },
+      {
+        text: "Wzdychasz i mówisz: \" No to mam teraz dwa jednakowe zwierzaki. Ale może przydadzą mi się, mogę bawić się nimi na zmianę, mogę posadzić je symetrycznie na półce.\"",
+        type: "korpo"
+      },
+      {
+        text: "Mówisz: \"Ooo, mam już takiego samego, ten to będzie Tom nr 2! Może uzbieram więcej takich i pobiję kolejny rekord! Hmm... Tom nr 25?!\"",
+        type: "quicksilver"
+      },
+      {
+        text: "Rozpakowujesz prezent i ledwo rzucasz na niego okiem, podbiegasz do drzwi bo znowu słyszysz dzwonek.",
+        type: "majster"
+      },
+    ]
+  },
+  {
+    type: "question",
+    question: "Masz 15 lat, jest październik. Siedzisz na 4 urodzinach swojego siostrzeńca i on z kolegami proponują ci wyjście na dwór, żeby grać w piłkę. Niestety nie wiesz gdzie masz buty... Co robisz?",
+    answers: [
+      {
+        text: "Zdejmujesz skarpety i idziesz grać boso.",
+        type: "jaca"
+      },
+      {
+        text: "Nie chcesz ubłocić swojej nowej koszuli od Hilfigera, więc tłumaczysz chłopcom jak niezdrowe jest wdychanie wilgotnego powietrza i zostajecie w domu.",
+        type: "korpo"
+      },
+      {
+        text: "Nie masz przy sobie kompletu Fila do gry w nogę, a w tych ciuchach fotki na fb nie dostaną wielu lajków, więc odmawiasz.",
+        type: "quicksilver"
+      },
+      {
+        text: "A co tam, biegniesz do dozorcy pożyczyć od niego gumiaki i nawet w nich ogrywasz gówniarzy, z którymi zrobiłeś zakłady o ich kieszonkowe.",
+        type: "majster"
+      },
+    ]
+  },
+  {
+    type: "question",
+    question: "Dostajesz zadanie przeprowadzenia wywiadu z ludźmi ze środowisk ultra-katolickich. Tematem wywiadu są same środowiska, wiadomo, że nie są zbyt chętne do rozmowy. W jaki sposób podejdziesz do tematu?",
+    answers: [
+      {
+        text: "Złapiesz kamerę, razem z kumplem walniecie piwko czy dwa i udając reporterów znanej i nielubianej przez te środowiska telewizji wbijecie na ich zebranie, narażając się na uderzenia toreb w głowę, po czym będziecie musieli się szybko ewakuować.",
+        type: "jaca"
+      },
+      {
+        text: "Skontaktujesz się z przewodniczącym/sekretariatem w/w środowiska, aby omówić zakres przeprowadzanego wywiadu i umówić się na konkretny termin.",
+        type: "korpo"
+      },
+      {
+        text: "Nie będziesz się pokazywać z takimi wapniakami. Lecisz na kolejny trip na Bali i poopowiadasz trochę o katolach, przechadzając się po Nusa Dua Beach.",
+        type: "quicksilver"
+      },
+      {
+        text: "Paanie, jakie wywiady, mnie tu gonią terminy, nie mam czasu na takie duperele.",
+        type: "majster"
+      },
+    ]
+  },
+  {
+    type: "question",
     question: "Masz 17 lat. Siedzisz w pubie Baryłka wraz z kolegami ze szkoły. Pijecie piwo i dobrze wam się gada. Jest bardzo miłe październikowe popołudnie. W pewnym momencie twój pijany kolega zaczyna nakłaniać cię byś wziął z nim udział w wyborach do szkolnego sejmu. Co robisz?",
     answers: [
       {text: "Mówisz mu, że \"czemu nie?\" może będzie z tego fajna przygoda.", type: "jaca"},
@@ -18,21 +103,22 @@ const story = [
       },
     ]
   },
+
   {
     type: "question",
-    question: "Zbliża się 24 kwietnia. Co robisz?",
+    question: "Jesteś nastolatkiem z rodziną na wakacjach. Po wieczornej kolacji w centrum Barcelony spacerujesz po mieście i podziwiasz jego uroki. Twoją uwagę przyciąga rzeka Besós. W pewnym momencie twoja młodsza siostra daje ci wyzwanie, żebyś podciągnął się na rurce, która jest nad rzeką. Co robisz?",
     answers: [
-      {text: "Kupujesz 24 piwa.", type: "jaca"},
+      {text: "„Ja tego nie zrobię?!” Pytasz się rodziców, którzy się zgadzają i wskakujesz w pełnym ubraniu z MP3 i telefonem w kieszeniach.", type: "jaca"},
       {
-        text: "Jestem w cugu nauki",
+        text: "Wyśmiewasz swoją siostrę i mówisz, że niestety nie, ponieważ jesteś świeżo po zabiegu na jędrność pośladków, poza tym masz na sobie nowe spodnie.",
         type: "korpo"
       },
       {
-        text: "Zaczynasz snuć plany na wakacje – czy będzie dobry wiatr na Helu?",
+        text: "Zaczynasz 30-minutową rozgrzewkę i robisz salto prosto do wody.",
         type: "quicksilver"
       },
       {
-        text: "Cieszysz się, że już niedługo maj.",
+        text: "Szykujesz się do skoku ale niestety przy kolacji wypiłeś o jeden kieliszek za dużo i wymiotujesz do rzeki.",
         type: "majster"
       },
     ]
