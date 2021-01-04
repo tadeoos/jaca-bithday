@@ -725,6 +725,50 @@ const story = [
   },
   {
     type: "question",
+    question: "Jesteś w mieszkaniu. Dzwoni do Ciebie koleżanka, że kaban się popsuł, czy możesz ją zastąpić: trzeba podyskutować z dzieciakami o książkach. Może jesteś u siebie (to blisko) i coś akurat ostatnio czytałeś.",
+    answers: [
+      {
+        text: "Odpowiadasz, że jeszcze jesteś u siebie, bo już wychodzisz lżyć Wellsa Towera. Oczywiście jego książka nie jest tak zupełnie zła, mógłby po prostu wymyślić więcej niż jedną postać, poza tym jest właściwie bardzo fajny, jego portret masz na wieczku od śmietnika „dla żartu”. Wychodzisz. Jest już późna jesień i na tiszert może trochę za chłodno. Nie odszedłeś daleko, więc wracasz po bluzę. Ona ma na sobie jakiś napis. Jak się później okazuje: „Pepe Jeans”. Nie masz pojęcia, co to jest Pepe Jeans. Ale dzieciaki ze świetlicy mają i uznają Cię za banana i w dupie mają Twoje zdanie na temat Wellsa Towera.",
+        type: "jaca"
+      },
+      {
+        text: "Odpowiadasz, że jesteś w pracy.",
+        type: "korpo"
+      },
+      {
+        text: "Odpowiadasz, że wpadniesz. Na imprezie z ludźmi z liceum ktoś chwalił ostatnio jakąś książkę, chyba coś o wojnie, w każdym razie, że coś runęło, coś o zgliszczach. Przeglądasz Internet, ale niestety wyskakuje Piotr Zaremba. To raczej nie to. Jednak dalej jest jakiś Wells Tower i jego Ruiny i Zgliszcza, ma to dobre recenzje, chwali to Najder na swoim peju, jest wywiad w DWUTYGODNIKU, to pewnie to. Nagle kojarzysz okładkę: masz z tą książką zdjęcie z Bilbao! Wkładasz bluzę od Pepe, kurtkę z kapturem obszytym futerkiem. Jesteś już spokojny: „czytałeś” to pół roku temu, masz prawo nie pamiętać.",
+        type: "quicksilver"
+      },
+      {
+        text: "Odpowiadasz, że nie czytasz. Nikomu się nie przyznajesz, że podkradasz po kryjomu książki żonie polonistce, najchętniej Ruiny i Zgliszcza Wellsa Towera. Nie wiesz jednak, że ona się zorientowała, tak go macałeś spocony z zachwytu, i że specjalnie kupiła sobie drugi egzemplarz tylko dla siebie. Trzyma go przy sobie zawsze w torebce.",
+        type: "majster"
+      }
+    ],
+  },
+  {
+    type: "question",
+    question: "Dzień kobiet. Twój przyjaciel oznajmia Ci, że wpada wieczorem ze swoją narzeczoną na piwko. Nawiązujecie luźną konwersację, z której wynika, że twój przyjaciel jak zwykle zapomniał o prezencie dla swojej narzeczonej i trochę zrobiło jej się przykro. Co robisz?",
+    answers: [
+      {
+        text: "Przypominasz sobie, że gdzieś w pokoju masz lizaka w kształcie minionka i wręczasz narzeczonej przyjaciela w ramach ratowania honoru płci męskiej i żeby poprawić dziewczynie humor.",
+        type: "jaca"
+      },
+      {
+        text: "Zmieniasz temat, żeby nie pogrążać przyjaciela.",
+        type: "korpo"
+      },
+      {
+        text: "Wyjmujesz z szuflady kilka gadżetów reklamowych, które dostałeś przy okazji współpracy z Quiksilverem i podajesz na boku przyjacielowi, żeby wręczył swojej kobiecie.",
+        type: "quicksilver"
+      },
+      {
+        text: "Głośno wyrażasz opinie, że kobiety i tak za dużo oczekują od mężczyzn i to one powinny dawać prezenty mężczyzną za ich ciężką pracę i wkład w utrzymanie rodziny.",
+        type: "majster"
+      }
+    ],
+  },
+  {
+    type: "question",
     question: "Wybraliście się z kumplami do Lwowa. Ciepły wieczorek. W trakcie spontanicznej wycieczki w poszukiwaniu niezbyt drogich pubów idziecie przez park Ivana Franka. Nagle słyszycie głośny ostry dźwięk. To muzyka! We will rock You! Słynnych Queen, ale grana... pierunami! Dziwne urządzenie podobne do grzyba puszczającego błyskawice i wydającego dźwięki. Steruje tym jakiś koleś w podartych ubraniach, z brązową bondaną na głowie. Zaczarowani tym widowiskiem czekacie do końca żeby spytać się kolesia co to jest. Zaczynasz gadać po angielsku z kolesiem, który nazywa siebie Ion. Okazuje się, że pochodzi z Charkowa, a to jest Cewka Tesli która może zagrać cokolwiek jej zapodasz. Monofonicznie. No i dodatkowo odpala neony. Bezprzewodowo. Ion mówi, że podróżuje z Cewką po Ukrainie. Dobrze wam się gada. Cała ekipa bierze piwko i jakieś przekąski. Ion zapewnia, że w tym miejscu można pić alkohol. Mówi również, że niebawem rusza przez Odessę do Krymu. Na Fiolent. Prawdziwy kawał tropików z przezroczystą woda i plażą bez ludzi. A żeby zarobić na drogę, piwko i smakołyki planuje koncertować. Nagle pyta Ciebie czy nie chcesz dołączyć do niego w tej podróży, bo jesteś dobrze rozgadany po angielsku i możecie razem podbić Świat. Co odpowiesz?",
     answers: [
       {
