@@ -948,6 +948,7 @@ function next(answer) {
     fillQuestion(nextContent.question)
     fillAnswers(nextContent)
     $(".inner").fadeIn(1100)
+    $(".inner").scrollTop(0)
   } else {
     var maxKey = Object.keys(score).reduce(function (a, b) {
       return score[a] > score[b] ? a : b
