@@ -30,6 +30,33 @@
 </div>
 
 <div class="scroll-bg">
+  <div id="wstep">
+    <p>
+      “E, szefie, obudź się. Wszystko OK?” to pytanie dociera do ciebie jak gdyby z oddali. Z trudem rozchylasz sklejone
+      powieki. Smugi światła powoli zlewają się w niewyraźny obraz.<br>
+      “Kk… Kim jesteś?”<br>
+      “Kim *JA* jestem? Może lepiej zacznijmy od ciebie! To ty właśnie zgrywałeś martwego. Kto *ty* jesteś?” Masz
+      wrażenie, jakby twoje usta były wypełnione piachem. Z wysiłkiem składasz je do odpowiedzi i już chcesz jej
+      udzielić, kiedy czujesz w głowie dziwaczne ukłucie.<br>
+      “Ekhm… szczerze... nie jestem pewien. Ja… Nie pamiętam.”<br>
+      “Serio!? Nie pamiętasz swojego *imienia*? No cóż, następnym razem odpuść nieco z tematem, bracie. W każdym razie
+      wygląda na to, że utknęliśmy tu na chwilę razem.”<br>
+      “Utknęliśmy?”<br>
+      “Ta, na pewno przetrzymają nas przynajmniej do jutra rano. Dziś Trzech Króli, więc nie spodziewam się że
+      ktokolwiek się nami zajmie. Ale jak pamiętasz jakiś numer, to dają zadzwonić.”<br>
+      “Numer…” w tym momencie orientujesz się, że nie masz na sobie górnej części ubrania. Odruchowo odwracasz się w
+      stronę okna, żeby zorientować się w przestrzeni. Twój towarzysz wydaje z siebie okrzyk zdziwienia.<br>
+      “Niech mnie szefie, masz coś napisane na plecach…”<br>
+      “*Napisane*? Ktoś pomazał mnie markerem?”<br>
+      “Nie szefie, to chyba tatuaże. Chyba są tu jakieś instrukcje… mam czytać?”<br>
+      “Jasne, chcę to usłyszeć.”<br>
+    </p>
+    <p><i>“Pewnie czujesz się jakby rozjechał cię autobus, ale musisz wziąć się w garść. Twój cel to otrzeźwić umysł i
+      odszukać siebie. Przede wszystkim, UKOŃCZ PSYCHOTEST. Może nie powie ci kim jesteś, ale pomoże ci odzyskać tę
+      wersję siebie, na której NAPRAWDĘ ci zależy.”</i></p>
+    <p>Masz wrażenie, że w tym momencie twój rozmówca przez chwilę się zawahał, ale czyta dalej...</p>
+    <button onclick="startGame()">ENTER</button>
+  </div>
   <div class="inner-result" style="display: none">
     <h1>Twój wynik</h1>
     <p id="wynik-opis"></p>
@@ -45,7 +72,7 @@
     <ol class="answers"></ol>
   </div>
   <div class="end" style="display: none">
-    <h1>Wszystkiego najlepszego Jacuś!</h1>
+    <h1>Wszystkiego najlepszego Jaculka!</h1>
     <p class="credits">credits</p>
     <ul>
       <li>Dominika</li>
@@ -82,6 +109,7 @@
       <li>Jacek Kuczyński</li>
       <li>Tata</li>
     </ul>
+    <h3>Duży rośnij!</h3>
   </div>
   <iframe width="560" height="0" src="https://www.youtube.com/embed/VnwD8zsGl2Y?autoplay=1&enablejsapi=1"
           frameborder="0" allow="autoplay"></iframe>
@@ -99,9 +127,6 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script>
-  $(document).ready(() => {
-      startGame()
-    }
-  )
+  $(document).ready(() => {})
 </script>
 </html>

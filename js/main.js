@@ -1,6 +1,28 @@
 const story = [
   {
     type: "question",
+    question: "Nastało wczesne popołudnie. W twojej grupie przedszkolnej pora na czas wolny - ulubiona część dnia wszystkich dzieci. Koledzy i koleżanki z uwielbieniem oddają się zabawie klockami. Co robisz?",
+    answers: [
+      {
+        text: "Zamiast do nich dołączyć, wyglądasz przez okno i wypatrujesz swojego rodzinnego domu przy Szaflarskiej. Ciekawe, co robi mama i Domino. No i gdzie jest tata? Po chwili z tych rozmyślań wyrywa cię zakłopotanie - czujesz, że trzęsą ci się ręcę i pocisz się ze zdenerwowania. Może i tym razem mama odbierze cię wcześniej.",
+        type: "jaca"
+      },
+      {
+        text: "Proponujesz dzieciom zabawę w sklep, po czym zaczynasz kłócić się z kolegą o to, kto ma zostać kierownikiem.",
+        type: "korpo"
+      },
+      {
+        text: "Szybko dołączasz do zabawy i wciągasz w nią nową koleżankę, która właśnie dołączyła do grupy. Budujecie z klocków super pojazd.",
+        type: "quicksilver"
+      },
+      {
+        text: "Bawisz się z nimi, ale po jakimś czasie zabawa zaczyna cię nudzić i nie wiedzieć czemu - spuszczasz łomot gościowi obok ciebie.",
+        type: "majster"
+      },
+    ]
+  },
+  {
+    type: "question",
     question: "Masz 6, czy 7 lat, jest ciepłe wiosenne popołudnie, bawisz się ze swoją ulubioną siostrą klockami. Nagle przez otwarte okno w dziecięcym pokoju słyszysz głośny chichot jakiegoś malucha. Co robisz?",
     answers: [
       {
@@ -902,6 +924,7 @@ function again() {
 
 function endCredits() {
   $(".inner").hide();
+  $(".inner-result").hide();
   $(".end").fadeIn(3000);
 }
 
@@ -960,6 +983,7 @@ function fillAnswers(content) {
 
 function startGame() {
   $('.inner-result').hide()
+  $("#wstep").hide()
   counter = 0
   let content = story[counter]
   fillQuestion(content.question)
