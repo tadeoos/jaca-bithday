@@ -884,26 +884,30 @@ let results = {
     {
       opis: "Jesteś Jackiem, który jest Jackiem i takim Cię kochamy. Ogarniasz chaosy, żyjesz z przeświadczeniem, że w życiu jest to co przychodzi. Masz specyficzny plan roczny. 23 czerwca zdarza Ci się śledzić obcych ludzi, ale tak żeby czuli, że to oni śledzą Ciebie. 24 kwietnia rokrocznie opracowujesz logistykę wypicia 24 piw w 24 godziny. 13-ego każdego miesiąca niezależnie od warunków pogodowo-przestrzenno-bytowych wymieniasz się obrazem z przyjacielem. Losowo i nie corocznie, ale hucznie obchodzisz Dzień Młodszej Siostry. Na co dzień bywasz widziany jak podrygujesz w samotności w rytm Dream the Impossible Dream z Don Kichote’a de la Manchy. Ważne są dla Ciebie: czas dla siebie, czytanie, Twoje siostry, kawa, ziomki i Chesterfieldy. W przedszkolu zamiast bawić się z innymi dziećmi, patrzyłeś przez okno na dom. Marzyłeś też żeby mieć trzecią rękę - mogłaby się w tylu sytuacjach przydać. W gimnazjum poznałeś Szwarca i Tatara i sprawy przybrały nieco inny obrót. Zdarzało Ci się kogoś nękać – dziś bardzo tego żałujesz. Lubisz odwiedzać swoją siostrę w szkole - nie zawsze w tej, do której akurat uczęszcza,ale to nie ma dla Ciebie znaczenia. Dużo wiesz, a czasem wiesz że nic nie wiesz. Oprócz Paula Newmana i pistacji uwielbiasz Doctora Who, Panammę, Hana Solo, Szufla, Barańczaka i Bruca Willisa. Tak jak oni bierzesz dużo zadań na swoje barki, ale kiedy trzeba – potrafisz rzucić wszystko i pędzić tam gdzie jesteś najbardziej potrzebny. Jakbyś mógł, chciałbyś mieć supermoce, mógłbyś nawet być superzłoczyńcą, ale nie chciałbyś władzy nad światem. Lubisz podróżować. Najbardziej do Krakowa, Tarnowa, Poznania i do Włoch. Niespecjalnie lubisz zwierzęta – wyjątkiem są konie, szczególnie te łyse. Nienawidzisz kanarów (bardziej niż policji) i nazistów (z wyjątkiem tych filmowych). Film w Twoim rozumieniu filmu jest pewną całością, wymaga doskonałej jakości obrazu, a także ciszy i skupienia – z wyjątkiem takich bardzo słabych, na których oficjalnie można rozmawiać. Twierdzisz, że umiesz latać, a Twoi bliscy nie wyprowadzają Cię z błędu. Kiedyś myślałeś - a może nadal myślisz - że najśmieszniejszym żartem jest puszczanie reklamy Fisielu czyli najlepszego kisielu na świecie. W weekendy wolne od prac zdarza Ci się kotwić słupki na Jazdowie. Cieszą Cię ludzkie zajawki. Znasz dobrze odpowiedź na pytanie kto robi najlepsze tosty w mieście. Ty. Znasz też dobrze odpowiedź na pytanie “jakie piwo?”. Jest zawsze ta sama: najtańsze. Potrzebującemu oddałbyś ostatnią kurtkę, a w każdym razie na pewno papierosa, piwo i swój czas (są na to liczne dowody). Z zasady nie używasz interpunkcji w smsach. Nie jesteś przekonany do sportów, a szczególnie do ich uprawiania – ale chętnie pojeździłbyś na nartach robiąc śnieżki. A jeszcze chętniej pooglądałbyś z Eskiem Karaczana. Masz takie dni, których głównym celem jest ich nieplanowanie. W przyszłości, jak rysunkowo przewidział kiedyś Adi Boro, będziesz wyglądał jak Duży Jaca.",
       film: "Stop. Powinno być: ulubione filmy. Raz na jakiś czas tworzysz sobie zestawy ulubionych dziesięciu. Stan na kilka lat temu: Pat Garret i Billy the Kid, Star Warsy (IV, V , VI), Annie Hall, O Lucky Man!, 7 samurajów, Wściekłe Psy, Blues Brothers, no i Pulp Fiction.",
-      zespol: "łatwiej mówić o najważniejszych: Gang Albanii, Kult, Red Hot Chili Peppers, Nick Cave & Bad Seeds."
+      zespol: "łatwiej mówić o najważniejszych: Gang Albanii, Kult, Red Hot Chili Peppers, Nick Cave & Bad Seeds.",
+      zachowanie: "obciągasz skarpetki na stopach tak, żeby luźna część zwisała z przodu",
     },
   korpo:
     {
-      opis: "Jacek ułożony pracownik korporacji produkującej szampony (wynajmuje mieszkanie w Miasteczku Wilanów, jeździ do pracy nową Skodą Octavią 1.6 108KM, pracuje po 11h przez 5 dni w tygodniu, raz na dwa miesiące spotyka się ze swoim kumplem z pracy Maxem, który czasem pożycza mu psa do zdjęcia na Tinderze. Jego ulubione miejsce na Ziemi – wulkaniczne wyspy Kanaryjskie, gdzie Jacek odkrył swoją ukochaną agroturystykę gdzie już od 6 lat jeździ na jedyny i wyczekiwany urlop podczas Świąt Bożego Narodzenia, gdzie może naładować baterie przed kolejnym rokiem pełnym wyzwań i sukcesów w karierze zawodowej)",
-      film: "",
-      zespol: ""
+      opis: "Sprzedawanie szamponów to może nie twoja pasja, ale zarządzanie procesami, management zasobów, i sprawne follow-upy z zarządem już tak. Wynajmujesz mieszkanie w Miasteczku Wilanów, a do pracy jeździsz 2-letnią Skodą Octavią 1.6l 108 koni mechanicznych. Pracujesz dużo, a może nawet bardzo dużo - ledwo zostaje ci czasu na życie towarzyskie i poszukiwania swojej drugiej połowy na Tinderze. W tym zakresie wspiera cię twój kumpel Maks, który czasem pożycza ci psa do zdjęć profilowych. Twoje ulubione miejsce na Ziemi to wulkaniczne Wyspy Kanaryjskie, gdzie odkryłeś swoją ukochaną agroturystykę - już od 6 lat jeździsz tam na jedyny w roku i długo wyczekiwany urlop podczas Świąt Bożego Narodzenia. To tam ładujesz baterie przed kolejnym okresem pełnym wyzwań i sukcesów w karierze zawodowej. Mogłoby się zdawać, że taki tryb życia jest dla ciebie zanadto stresujący, jednak dzięki znajomościom, sile woli, zacięciu z tym - jak ze wszystkim - radzisz sobie przednio. Keep calm and grow. Medytacja, inhalacja i dobry vibe - to Twoje codzienne motto. Jak zdobywać świat to tylko z Eckhartem Tolle i fifką w kieszeni marynarki!",
+      film: "Kac Vegas, resztę musiałbyś sprawdzić na swoim profilu na Netflixie, ale jest tego sporo.",
+      zespol: "LUC i Kaliber 44, ale prawda jest taka że nie przeszkadza ci Taylor Swift i Beyonce puszczane przez koleżanki w korpo. Lubisz też playlistę technomix 2019 oraz relaxing Office background na spotify.",
+      zachowanie: "często kompulsywnie sprawdzasz telefon czy nie dzwonisz do kogoś przypadkiem oraz odkładasz swojego iphona na bok ilekroć rozmowa toczy się na temat tej osoby. Czasem robisz ukradkiem, przy okazji spontanicznych wypadów do parku, zdjęcia słodkich psiaków. Cudzych psiaków."
     },
 
   quicksilver:
     {
       opis: "Nazywasz się Jacek, ale większość ludzi (a w szczególności internautów) zna cię jako Jacę Duże Wu. Twój kanał na YouTubie śledzi ponad 100 tysięcy osób, masz już za sobą wizyty w Pytanie na Śniadanie i Dzień Dobry TVN. Jeśli ktoś chcę doświadczyć jak to jest wieść życie ekstremalne – zagląda na twój kanał. Twoje filmy ze skoków na spadochronie, surfingu, free skiingu i base jumpingu robią niesamowite wrażenie. Od zawsze wiedziałeś, że zwykłe życie nie jest dla Ciebie. Normalna praca, mieszkanie w jednym miejscu? Okropność. Ostatnie lata spędziłeś głównie przemierzając swoim kamperem południową Azję. Wchodząc w nową dekadę swojego życia z uśmiechem wspominasz swoje lata dwudzieste. Ile się wydarzyło! Fjordy w Norwegii, ocean w Maroku... Pierwsza umowa sponsorska z Quicksilverem... Ile byś dał by przeżyć to jeszcze raz! Z kolei z lekkim niepokojem myślisz o nadchodzącej dekadzie – trudno ci jest myśleć o starzeniu się... Czy kiedyś będziesz musiał ściąć swoje piękne sięgające ci do ramion loki? Niee... To chyba jeszcze prędko się nie wydarzy. Ale może trzeba zacząć myśleć o jakimś zabezpieczeniu? Co jeśli przytrafiłaby ci się jednak jakaś kontuzja? Ech... Trochę przygnębiają cię takie myśli, ale z drugiej strony twoja intuicja nigdy cię jeszcze nie zawiodła. Bywało gorzej – ludzie klaskali!",
       film: "72 godziny",
-      zespol: "The Beach Boys"
+      zespol: "The Beach Boys",
+      zachowanie: "uwielbiasz wielogodzinne kąpiele z kawą, książką, bąbelkami, no i swoim smartphonem o imieniu Matylda.",
     },
   majster:
     {
       opis: "Nazywasz się Jacek, ale większość osób zwraca się do ciebie per „szefie”, albo w każdym razie tak powinno być. \"Nie zawsze jest łatwo, ale zawsze jest do celu” oraz „Jak się coś zrobi - to coś jest” to twoje dwie dewizy, które doprowadziły cię tam, gdzie jesteś, czyli na przedmieścia Birmingham. Pracujesz jako szef ekipy remontowej i chełpisz się tym, że jako jedyny w okolicy nie wymagasz od swoich pracowników kwalifikacji ani znajomości angielskiego. Z tego powodu usługi świadczone przez twoją formalnie niezarejestrowaną  ”firmę” mają konkurencyjne ceny.. Kursujesz między Jukejem a Holandią - bo  na wylotówce z Rotterdamu mieszkają Twoje córki i ich arabscy partnerzy, którzy okazali się wyjątkowo bezproblemowi i do tego fani Roberta Lewandowskiego i pijący. Da się żyć, choć w przykościelnym schronisku dla ubogich, gdzie podnajmujesz na czarno pokój od polskiego księdza-alkoholika bywa zimno i tęskno za Ojczyzną, ale na to pomaga akurat piwsko Okocim Jasne Pełne, które jest często dostępne w sklepach spożywczych na przedmieściach Birmingham ze względu na duże stężenie rodaków. Wykupujesz często dwa dwunastopaki, co daje idealną na sobotni wieczór liczbę 24 browarów.  Da się żyć, chociaż masz dosyć Ukraińców, co się tu nazjeżdżali i w konsekwencji coraz rzadziej  masz do kogo gębę otworzyć na robocie. No, ale jesteś kowalem swojego losu i dobrze, że nie masz kontaktu ze swoją rodziną - to byli dziwni ludzie, którzy mieszkali w dziwnym białym domu na przedmieściach Warszawy. Coś jakby arystokracja, ale ostatecznie dobrze, że się pokłóciliście. Ty nie byłeś skrojony na takie życie. Jak się coś zrobi -  to coś jest.",
       film: "Kilerów Dwóch",
-      zespol: "Kobranocka"
+      zespol: "Kobranocka",
+      zachowanie: "nie lubisz używać kremów. Szczególnie przeciwsłonecznych. “Źle się operuje śrubokrętem z nakremowanymi dłońmi” mawiasz. Lubisz też pić piwo z puszki nie przez przygotowany fabrycznie otwór, ale przez dziurę zrobioną własnoręcznie śrubokrętem. Podobno ma to jakiś (meta)fizyczny sens.",
     },
 }
 let counter = 0
@@ -917,7 +921,7 @@ let score = {
 }
 
 function again() {
-  $(".endBtns").hide();
+  $(".inner-result").hide();
   $(".inner").hide();
   startGame()
 }
@@ -934,7 +938,9 @@ function showResults(maxKey) {
   $("#wynik-opis").text(result["opis"])
   $("#ulub-film").text(`Ulubiony film: ${result["film"]}`)
   $("#ulub-zespol").text(`Ulubiony zespół: ${result["zespol"]}`)
+  $("#zachowanie").text(`Dziwne zachowanie: ${result["zachowanie"]}`)
   $(".inner-result").fadeIn(1100)
+  $(".inner-result").scrollTop(0)
 }
 
 function next(answer) {
@@ -983,9 +989,14 @@ function fillAnswers(content) {
 
 
 function startGame() {
-  $('.inner-result').hide()
   $("#wstep").hide()
   counter = 0
+  score = {
+    jaca: 0,
+    korpo: 0,
+    quicksilver: 0,
+    majster: 0,
+  }
   let content = story[counter]
   fillQuestion(content.question)
   fillAnswers(content)

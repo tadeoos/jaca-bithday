@@ -371,3 +371,7 @@ button:hover {
   height: 400px;
   overflow: auto;
 }
+
+.m-auto {
+  margin: auto;
+}
