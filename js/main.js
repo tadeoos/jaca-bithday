@@ -886,13 +886,15 @@ let results = {
       film: "Stop. Powinno być: ulubione filmy. Raz na jakiś czas tworzysz sobie zestawy ulubionych dziesięciu. Stan na kilka lat temu: Pat Garret i Billy the Kid, Star Warsy (IV, V , VI), Annie Hall, O Lucky Man!, 7 samurajów, Wściekłe Psy, Blues Brothers, no i Pulp Fiction.",
       zespol: "łatwiej mówić o najważniejszych: Gang Albanii, Kult, Red Hot Chili Peppers, Nick Cave & Bad Seeds.",
       zachowanie: "obciągasz skarpetki na stopach tak, żeby luźna część zwisała z przodu",
+      img: "img/jaca-jaca.jpg",
     },
   korpo:
     {
       opis: "Sprzedawanie szamponów to może nie twoja pasja, ale zarządzanie procesami, management zasobów, i sprawne follow-upy z zarządem już tak. Wynajmujesz mieszkanie w Miasteczku Wilanów, a do pracy jeździsz 2-letnią Skodą Octavią 1.6l 108 koni mechanicznych. Pracujesz dużo, a może nawet bardzo dużo - ledwo zostaje ci czasu na życie towarzyskie i poszukiwania swojej drugiej połowy na Tinderze. W tym zakresie wspiera cię twój kumpel Maks, który czasem pożycza ci psa do zdjęć profilowych. Twoje ulubione miejsce na Ziemi to wulkaniczne Wyspy Kanaryjskie, gdzie odkryłeś swoją ukochaną agroturystykę - już od 6 lat jeździsz tam na jedyny w roku i długo wyczekiwany urlop podczas Świąt Bożego Narodzenia. To tam ładujesz baterie przed kolejnym okresem pełnym wyzwań i sukcesów w karierze zawodowej. Mogłoby się zdawać, że taki tryb życia jest dla ciebie zanadto stresujący, jednak dzięki znajomościom, sile woli, zacięciu z tym - jak ze wszystkim - radzisz sobie przednio. Keep calm and grow. Medytacja, inhalacja i dobry vibe - to Twoje codzienne motto. Jak zdobywać świat to tylko z Eckhartem Tolle i fifką w kieszeni marynarki!",
       film: "Kac Vegas, resztę musiałbyś sprawdzić na swoim profilu na Netflixie, ale jest tego sporo.",
       zespol: "LUC i Kaliber 44, ale prawda jest taka że nie przeszkadza ci Taylor Swift i Beyonce puszczane przez koleżanki w korpo. Lubisz też playlistę technomix 2019 oraz relaxing Office background na spotify.",
-      zachowanie: "często kompulsywnie sprawdzasz telefon czy nie dzwonisz do kogoś przypadkiem oraz odkładasz swojego iphona na bok ilekroć rozmowa toczy się na temat tej osoby. Czasem robisz ukradkiem, przy okazji spontanicznych wypadów do parku, zdjęcia słodkich psiaków. Cudzych psiaków."
+      zachowanie: "często kompulsywnie sprawdzasz telefon czy nie dzwonisz do kogoś przypadkiem oraz odkładasz swojego iphona na bok ilekroć rozmowa toczy się na temat tej osoby. Czasem robisz ukradkiem, przy okazji spontanicznych wypadów do parku, zdjęcia słodkich psiaków. Cudzych psiaków.",
+      img: "img/jaca-korpo.jpg",
     },
 
   quicksilver:
@@ -901,6 +903,7 @@ let results = {
       film: "72 godziny",
       zespol: "The Beach Boys",
       zachowanie: "uwielbiasz wielogodzinne kąpiele z kawą, książką, bąbelkami, no i swoim smartphonem o imieniu Matylda.",
+      img: "img/jaca-quick.jpg",
     },
   majster:
     {
@@ -908,6 +911,7 @@ let results = {
       film: "Kilerów Dwóch",
       zespol: "Kobranocka",
       zachowanie: "nie lubisz używać kremów. Szczególnie przeciwsłonecznych. “Źle się operuje śrubokrętem z nakremowanymi dłońmi” mawiasz. Lubisz też pić piwo z puszki nie przez przygotowany fabrycznie otwór, ale przez dziurę zrobioną własnoręcznie śrubokrętem. Podobno ma to jakiś (meta)fizyczny sens.",
+      img: "img/jaca-majster.jpg",
     },
 }
 let counter = 0
@@ -939,6 +943,7 @@ function showResults(maxKey) {
   $("#ulub-film").text(`Ulubiony film: ${result["film"]}`)
   $("#ulub-zespol").text(`Ulubiony zespół: ${result["zespol"]}`)
   $("#zachowanie").text(`Dziwne zachowanie: ${result["zachowanie"]}`)
+  $("#wynik-img").attr('src', result.img)
   $(".inner-result").fadeIn(1100)
   $(".inner-result").scrollTop(0)
 }

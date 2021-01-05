@@ -375,3 +375,7 @@ button:hover {
 .m-auto {
   margin: auto;
 }
+
+#wynik-img {
+  max-height: 300px;
+}
