@@ -100,7 +100,7 @@ const story = [
         type: "korpo"
       },
       {
-        text: "Nie masz przy sobie kompletu Fila do gry w nogę, a w tych ciuchach fotki na fb nie dostaną wielu lajków, więc odmawiasz.",
+        text: "Nie masz przy sobie kompletu Fila do gry w nogę, a w tych ciuchach fotki na FB nie dostaną wielu lajków, więc odmawiasz.",
         type: "quicksilver"
       },
       {
@@ -295,7 +295,7 @@ const story = [
         type: "korpo"
       },
       {
-        text: "Oglądasz w internecie sposoby naprawiania półek i nieusatysfakcjonowany nagrywasz własne \"DIY SHELF. How to construct a shelf out of a cup and a shoe lense\". Potem, niesiony weną nagrywasz jeszcze kabaret \"Świat według Jacka. Odc. 19. Walka z materią\"",
+        text: "Oglądasz w internecie sposoby naprawiania półek i nieusatysfakcjonowany nagrywasz własne \"DIY SHELF. How to construct a shelf out of a cup and a shoe lace\". Potem, niesiony weną nagrywasz jeszcze kabaret \"Świat według Jacka. Odc. 19. Walka z materią\"",
         type: "quicksilver"
       },
       {
@@ -529,7 +529,7 @@ const story = [
     question: "Rok 2020. 23 kwietnia, godzina 23.55. Dzwoni budzik. Wstajesz zwarty i gotowy Jednocześnie czujesz lekką frustrację. Dlaczego?",
     answers: [
       {
-        text: "Wyjątkowo nie udało Ci się przełożyć wszystkich obowiązków i w ciągu najbliższych 24 godzin będziesz musiał pogodzić: wypicie 24 piw, uczestnictwo w pogrzebie znajomego i Wzięcie udziału w pierwszym 6-godzinnym dniu hackatonu. Jednocześnie będziesz musiał kontrolować i zapisywać ilość spożytych puszek alkoholu. To będzie nie lada logistyka.",
+        text: "Wyjątkowo nie udało Ci się przełożyć wszystkich obowiązków i w ciągu najbliższych 24 godzin będziesz musiał pogodzić: wypicie 24 piw, uczestnictwo w pogrzebie znajomego i wzięcie udziału w pierwszym 6-godzinnym dniu hackatonu. Jednocześnie będziesz musiał kontrolować i zapisywać ilość spożytych puszek alkoholu. To będzie nie lada logistyka.",
         type: "jaca"
       },
       {
@@ -573,7 +573,7 @@ const story = [
     question: "Masz 22 lata. Jakiś czas temu wpadłeś na pomysł, że świetnym sposobem na kultywowanie Twojej relacji z młodszą siostrą jest celebrowanie Dnia Młodszej Siostry. Nie ma takiego święta w kalendarzu, ale to nic nie szkodzi! Szukasz pomysłu na ten rok. Co robisz?",
     answers: [
       {
-        text: "Przypominasz sobie, że dziewczyna twojego kumpla robiła kurs makijażu. Chyba lubi też robić zdjęcia. Dzwonisz do niej z pytaniem, czy ma trochę wolnego czasu, bo chcesz zorganizować sesję zdjęciową, Podzielimy sesję na dwie części. Najpierw będziecie młodziakami, a potem staruszkami. To będzie bardzo fajny dzień!",
+        text: "Przypominasz sobie, że dziewczyna twojego kumpla robiła kurs makijażu. Chyba lubi też robić zdjęcia. Dzwonisz do niej z pytaniem, czy ma trochę wolnego czasu, bo chcesz zorganizować sesję zdjęciową. Podzielimy sesję na dwie części. Najpierw będziecie młodziakami, a potem staruszkami. To będzie bardzo fajny dzień!",
         type: "jaca"
       },
       {
@@ -666,15 +666,15 @@ const story = [
         type: "jaca"
       },
       {
-        text: "Dzwonisz na policję i Straż miejska. Chcesz załatwić sprawę porządnie. Czujesz się z tym szlachetnie, robisz sobie za to nagrodę specjalną postaci obiadu na mieście. Będzie to ramen i sushi",
+        text: "Dzwonisz na policję i straż miejską. Chcesz załatwić sprawę porządnie. Czujesz się z tym szlachetnie, robisz sobie za to nagrodę specjalną w postaci obiadu na mieście. Będzie to ramen i sushi.",
         type: "korpo"
       },
       {
-        text: "Bierzesz skrzyneczkę do domu, nagrywasz relacje na fB, wrzucasz apel z prośbą o znalezienie właściciela skrzyneczki na swoją tablice, na tablice strony przyjaciół saskiej. Za znalezienia właściciela oferujesz nagrodę. Czapkę z quicksilvera.",
+        text: "Bierzesz skrzyneczkę do domu, nagrywasz relacje na FB, wrzucasz apel z prośbą o znalezienie właściciela skrzyneczki na swoją tablicę, na tablicę strony Przyjaciół Saskiej. Za znalezienia właściciela oferujesz nagrodę. Czapkę z quicksilvera.",
         type: "quicksilver"
       },
       {
-        text: "Wybierasz się na zakupy. Wszak przyda ci się zapas jedzenia, ale nie zachowuje wszystkiego dla siebie: dzielisz się bonami z sąsiadami.",
+        text: "Wybierasz się na zakupy. Wszak przyda ci się zapas jedzenia, ale nie zachowujesz wszystkiego dla siebie: dzielisz się bonami z sąsiadami.",
         type: "majster"
       }
     ],
