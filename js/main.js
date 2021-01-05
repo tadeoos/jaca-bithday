@@ -940,9 +940,9 @@ function showResults(maxKey) {
   $(".inner").hide()
   let result = results[maxKey]
   $("#wynik-opis").text(result["opis"])
-  $("#ulub-film").text(`Ulubiony film: ${result["film"]}`)
-  $("#ulub-zespol").text(`Ulubiony zespół: ${result["zespol"]}`)
-  $("#zachowanie").text(`Dziwne zachowanie: ${result["zachowanie"]}`)
+  $("#ulub-film").html(`<b>Ulubiony film:</b> ${result["film"]}`)
+  $("#ulub-zespol").html(`<b>Ulubiony zespół:</b> ${result["zespol"]}`)
+  $("#zachowanie").html(`<b>Dziwne zachowanie:</b> ${result["zachowanie"]}`)
   $("#wynik-img").attr('src', result.img)
   $(".inner-result").fadeIn(1100)
   $(".inner-result").scrollTop(0)
